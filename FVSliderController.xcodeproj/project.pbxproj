@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698243B3A5206A3FD553E041 /* libPods-FVSliderController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07D5B27C3F7CC2A8E262C5 /* libPods-FVSliderController.a */; };
+		9DC0075E207B459300ACCA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC00747207B459300ACCA6D /* Assets.xcassets */; };
+		9DC0075F207B459300ACCA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC00748207B459300ACCA6D /* LaunchScreen.storyboard */; };
+		9DC00760207B459300ACCA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0074A207B459300ACCA6D /* Main.storyboard */; };
+		9DC00761207B459300ACCA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0074C207B459300ACCA6D /* main.m */; };
+		9DC00762207B459300ACCA6D /* SliderData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0074F207B459300ACCA6D /* SliderData.plist */; };
+		9DC00763207B459300ACCA6D /* FVChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00750207B459300ACCA6D /* FVChildViewController.m */; };
+		9DC00764207B459300ACCA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00752207B459300ACCA6D /* AppDelegate.m */; };
+		9DC00765207B459300ACCA6D /* FVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00754207B459300ACCA6D /* FVViewController.m */; };
+		9DC00766207B459300ACCA6D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DC00755207B459300ACCA6D /* Info.plist */; };
+		9DC00777207B46EE00ACCA6D /* UIDevice+FVUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00769207B46EE00ACCA6D /* UIDevice+FVUse.m */; };
+		9DC00778207B46EE00ACCA6D /* FVSliderAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0076A207B46EE00ACCA6D /* FVSliderAssets.bundle */; };
+		9DC00779207B46EE00ACCA6D /* FVSliderExtroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0076C207B46EE00ACCA6D /* FVSliderExtroView.m */; };
+		9DC0077A207B46EE00ACCA6D /* FVSliderContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0076D207B46EE00ACCA6D /* FVSliderContentCell.m */; };
+		9DC0077B207B46EE00ACCA6D /* FVSliderExtroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0076E207B46EE00ACCA6D /* FVSliderExtroCell.m */; };
+		9DC0077C207B46EE00ACCA6D /* FVSliderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0076F207B46EE00ACCA6D /* FVSliderLabel.m */; };
+		9DC0077D207B46EE00ACCA6D /* FVSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00770207B46EE00ACCA6D /* FVSliderController.m */; };
+		9DC0077E207B46EE00ACCA6D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00774207B46EE00ACCA6D /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E17C71F0CCDFF9781975329 /* Pods-FVSliderController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FVSliderController.release.xcconfig"; path = "Pods/Target Support Files/Pods-FVSliderController/Pods-FVSliderController.release.xcconfig"; sourceTree = "<group>"; };
+		9DC00747207B459300ACCA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC00749207B459300ACCA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC0074B207B459300ACCA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC0074C207B459300ACCA6D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DC0074E207B459300ACCA6D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DC0074F207B459300ACCA6D /* SliderData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SliderData.plist; sourceTree = "<group>"; };
+		9DC00750207B459300ACCA6D /* FVChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVChildViewController.m; sourceTree = "<group>"; };
+		9DC00751207B459300ACCA6D /* FVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVViewController.h; sourceTree = "<group>"; };
+		9DC00752207B459300ACCA6D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DC00753207B459300ACCA6D /* FVChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVChildViewController.h; sourceTree = "<group>"; };
+		9DC00754207B459300ACCA6D /* FVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVViewController.m; sourceTree = "<group>"; };
+		9DC00755207B459300ACCA6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC00768207B46EE00ACCA6D /* FVSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSliderController.h; sourceTree = "<group>"; };
+		9DC00769207B46EE00ACCA6D /* UIDevice+FVUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FVUse.m"; sourceTree = "<group>"; };
+		9DC0076A207B46EE00ACCA6D /* FVSliderAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FVSliderAssets.bundle; sourceTree = "<group>"; };
+		9DC0076B207B46EE00ACCA6D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9DC0076C207B46EE00ACCA6D /* FVSliderExtroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSliderExtroView.m; sourceTree = "<group>"; };
+		9DC0076D207B46EE00ACCA6D /* FVSliderContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSliderContentCell.m; sourceTree = "<group>"; };
+		9DC0076E207B46EE00ACCA6D /* FVSliderExtroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSliderExtroCell.m; sourceTree = "<group>"; };
+		9DC0076F207B46EE00ACCA6D /* FVSliderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSliderLabel.m; sourceTree = "<group>"; };
+		9DC00770207B46EE00ACCA6D /* FVSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSliderController.m; sourceTree = "<group>"; };
+		9DC00771207B46EE00ACCA6D /* UIDevice+FVUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FVUse.h"; sourceTree = "<group>"; };
+		9DC00772207B46EE00ACCA6D /* FVSliderContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSliderContentCell.h; sourceTree = "<group>"; };
+		9DC00773207B46EE00ACCA6D /* FVSliderExtroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSliderExtroView.h; sourceTree = "<group>"; };
+		9DC00774207B46EE00ACCA6D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9DC00775207B46EE00ACCA6D /* FVSliderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSliderLabel.h; sourceTree = "<group>"; };
+		9DC00776207B46EE00ACCA6D /* FVSliderExtroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSliderExtroCell.h; sourceTree = "<group>"; };
+		9DC3E69A207B448F007EBDDD /* FVSliderController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FVSliderController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63939AD6B3EB13904737533 /* Pods-FVSliderController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FVSliderController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FVSliderController/Pods-FVSliderController.debug.xcconfig"; sourceTree = "<group>"; };
+		FD07D5B27C3F7CC2A8E262C5 /* libPods-FVSliderController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FVSliderController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC3E697207B448F007EBDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698243B3A5206A3FD553E041 /* libPods-FVSliderController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA65C83855836FBFB2F6838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B63939AD6B3EB13904737533 /* Pods-FVSliderController.debug.xcconfig */,
+				8E17C71F0CCDFF9781975329 /* Pods-FVSliderController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DC00736207B459300ACCA6D /* FVSliderControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0074D207B459300ACCA6D /* class */,
+				9DC00747207B459300ACCA6D /* Assets.xcassets */,
+				9DC00748207B459300ACCA6D /* LaunchScreen.storyboard */,
+				9DC0074A207B459300ACCA6D /* Main.storyboard */,
+				9DC0074C207B459300ACCA6D /* main.m */,
+				9DC00755207B459300ACCA6D /* Info.plist */,
+			);
+			path = FVSliderControlDemo;
+			sourceTree = "<group>";
+		};
+		9DC0074D207B459300ACCA6D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0074E207B459300ACCA6D /* AppDelegate.h */,
+				9DC0074F207B459300ACCA6D /* SliderData.plist */,
+				9DC00750207B459300ACCA6D /* FVChildViewController.m */,
+				9DC00751207B459300ACCA6D /* FVViewController.h */,
+				9DC00752207B459300ACCA6D /* AppDelegate.m */,
+				9DC00753207B459300ACCA6D /* FVChildViewController.h */,
+				9DC00754207B459300ACCA6D /* FVViewController.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		9DC00767207B46EE00ACCA6D /* FVSliderController */ = {
+			isa = PBXGroup;
+			children = (
+				9DC0076A207B46EE00ACCA6D /* FVSliderAssets.bundle */,
+				9DC00768207B46EE00ACCA6D /* FVSliderController.h */,
+				9DC00770207B46EE00ACCA6D /* FVSliderController.m */,
+				9DC00771207B46EE00ACCA6D /* UIDevice+FVUse.h */,
+				9DC00769207B46EE00ACCA6D /* UIDevice+FVUse.m */,
+				9DC0076B207B46EE00ACCA6D /* UIView+Extension.h */,
+				9DC00774207B46EE00ACCA6D /* UIView+Extension.m */,
+				9DC00773207B46EE00ACCA6D /* FVSliderExtroView.h */,
+				9DC0076C207B46EE00ACCA6D /* FVSliderExtroView.m */,
+				9DC00772207B46EE00ACCA6D /* FVSliderContentCell.h */,
+				9DC0076D207B46EE00ACCA6D /* FVSliderContentCell.m */,
+				9DC00776207B46EE00ACCA6D /* FVSliderExtroCell.h */,
+				9DC0076E207B46EE00ACCA6D /* FVSliderExtroCell.m */,
+				9DC00775207B46EE00ACCA6D /* FVSliderLabel.h */,
+				9DC0076F207B46EE00ACCA6D /* FVSliderLabel.m */,
+			);
+			path = FVSliderController;
+			sourceTree = "<group>";
+		};
+		9DC3E691207B448F007EBDDD = {
+			isa = PBXGroup;
+			children = (
+				9DC00767207B46EE00ACCA6D /* FVSliderController */,
+				9DC00736207B459300ACCA6D /* FVSliderControlDemo */,
+				9DC3E69B207B448F007EBDDD /* Products */,
+				7FA65C83855836FBFB2F6838 /* Pods */,
+				CFE556FD0A4EAD7E537A6BFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC3E69B207B448F007EBDDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC3E69A207B448F007EBDDD /* FVSliderController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE556FD0A4EAD7E537A6BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD07D5B27C3F7CC2A8E262C5 /* libPods-FVSliderController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC3E699207B448F007EBDDD /* FVSliderController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC3E6B0207B4490007EBDDD /* Build configuration list for PBXNativeTarget "FVSliderController" */;
+			buildPhases = (
+				7B5AC2AC1807389C32E63D09 /* [CP] Check Pods Manifest.lock */,
+				9DC3E696207B448F007EBDDD /* Sources */,
+				9DC3E697207B448F007EBDDD /* Frameworks */,
+				9DC3E698207B448F007EBDDD /* Resources */,
+				BFC58504E5424B39F2262ADA /* [CP] Embed Pods Frameworks */,
+				F86B1EAEBCA322A15453B99B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FVSliderController;
+			productName = FVSliderController;
+			productReference = 9DC3E69A207B448F007EBDDD /* FVSliderController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC3E692207B448F007EBDDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = iforvert;
+				TargetAttributes = {
+					9DC3E699207B448F007EBDDD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 9DC3E695207B448F007EBDDD /* Build configuration list for PBXProject "FVSliderController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC3E691207B448F007EBDDD;
+			productRefGroup = 9DC3E69B207B448F007EBDDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC3E699207B448F007EBDDD /* FVSliderController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC3E698207B448F007EBDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC00760207B459300ACCA6D /* Main.storyboard in Resources */,
+				9DC00778207B46EE00ACCA6D /* FVSliderAssets.bundle in Resources */,
+				9DC00766207B459300ACCA6D /* Info.plist in Resources */,
+				9DC0075F207B459300ACCA6D /* LaunchScreen.storyboard in Resources */,
+				9DC0075E207B459300ACCA6D /* Assets.xcassets in Resources */,
+				9DC00762207B459300ACCA6D /* SliderData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B5AC2AC1807389C32E63D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FVSliderController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC58504E5424B39F2262ADA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FVSliderController/Pods-FVSliderController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F86B1EAEBCA322A15453B99B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FVSliderController/Pods-FVSliderController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC3E696207B448F007EBDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC0077E207B46EE00ACCA6D /* UIView+Extension.m in Sources */,
+				9DC0077B207B46EE00ACCA6D /* FVSliderExtroCell.m in Sources */,
+				9DC0077D207B46EE00ACCA6D /* FVSliderController.m in Sources */,
+				9DC00777207B46EE00ACCA6D /* UIDevice+FVUse.m in Sources */,
+				9DC0077A207B46EE00ACCA6D /* FVSliderContentCell.m in Sources */,
+				9DC00764207B459300ACCA6D /* AppDelegate.m in Sources */,
+				9DC0077C207B46EE00ACCA6D /* FVSliderLabel.m in Sources */,
+				9DC00765207B459300ACCA6D /* FVViewController.m in Sources */,
+				9DC00779207B46EE00ACCA6D /* FVSliderExtroView.m in Sources */,
+				9DC00763207B459300ACCA6D /* FVChildViewController.m in Sources */,
+				9DC00761207B459300ACCA6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DC00748207B459300ACCA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC00749207B459300ACCA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC0074A207B459300ACCA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC0074B207B459300ACCA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC3E6AE207B4490007EBDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DC3E6AF207B4490007EBDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC3E6B1207B4490007EBDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63939AD6B3EB13904737533 /* Pods-FVSliderController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4Q6JBQZP4;
+				INFOPLIST_FILE = "$(SRCROOT)/FVSliderControlDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iforvert.FVSliderController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC3E6B2207B4490007EBDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E17C71F0CCDFF9781975329 /* Pods-FVSliderController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4Q6JBQZP4;
+				INFOPLIST_FILE = "$(SRCROOT)/FVSliderControlDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iforvert.FVSliderController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC3E695207B448F007EBDDD /* Build configuration list for PBXProject "FVSliderController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC3E6AE207B4490007EBDDD /* Debug */,
+				9DC3E6AF207B4490007EBDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC3E6B0207B4490007EBDDD /* Build configuration list for PBXNativeTarget "FVSliderController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC3E6B1207B4490007EBDDD /* Debug */,
+				9DC3E6B2207B4490007EBDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC3E692207B448F007EBDDD /* Project object */;
+}
